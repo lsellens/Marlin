@@ -445,7 +445,7 @@ else ifeq ($(HARDWARE_MOTHERBOARD),1510)
   PROG_MCU         ?= m1284p
 
 # MKS SMelzi V1.0
-else ifeq ($(HARDWARE_MOTHERBOARD),1511)
+else ifeq ($(HARDWARE_MOTHERBOARD),1512)
   HARDWARE_VARIANT ?= Sanguino
   MCU              ?= atmega1284p
 
