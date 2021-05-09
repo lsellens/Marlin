@@ -306,6 +306,8 @@
   #include "sanguino/pins_AZTEEG_X1.h"          // ATmega644P, ATmega1284P                env:sanguino1284p_optimized env:sanguino1284p env:sanguino644p
 #elif MB(ZMIB_V2)
   #include "sanguino/pins_ZMIB_V2.h"            // ATmega644P, ATmega1284P                env:sanguino1284p_optimized env:sanguino1284p env:sanguino644p
+#elif MB(MKS_SMELZI_10)
+  #include "sanguino/pins_SMELZI.h"             // ATmega1284P                            env:sanguino1284p
 
 //
 // Other ATmega644P, ATmega644, ATmega1284P
