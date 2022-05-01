@@ -596,6 +596,11 @@ else ifeq ($(HARDWARE_MOTHERBOARD),1511)
   HARDWARE_VARIANT ?= Sanguino
   MCU              ?= atmega1284p
   PROG_MCU         ?= m1284p
+# MKS SMelzi V1.0
+else ifeq ($(HARDWARE_MOTHERBOARD),1512)
+  HARDWARE_VARIANT ?= Sanguino
+  MCU              ?= atmega1284p
+  PROG_MCU         ?= m1284p
 
 #
 # Other ATmega644P, ATmega644, ATmega1284P
