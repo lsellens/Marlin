@@ -48,7 +48,7 @@
 //
 // Misc. Functions
 //
-#define PS_ON_PIN 17
+#define PS_ON_PIN 16
 #define DOGLCD_A0 27
 #define BTN_ENC 28
 #define DOGLCD_CS 29
