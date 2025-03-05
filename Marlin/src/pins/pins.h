@@ -402,6 +402,8 @@
   #include "sanguino/pins_ANET_10.h"                // ATmega1284P                          env:sanguino1284p env:sanguino1284p_optimized env:melzi_optiboot
 #elif MB(ZMIB_V2)
   #include "sanguino/pins_ZMIB_V2.h"                // ATmega644P, ATmega1284P              env:sanguino1284p_optimized env:sanguino1284p env:sanguino644p
+#elif MB(MKS_SMELZI_10)
+  #include "sanguino/pins_SMELZI.h"                 // lsellens ATmega1284P                 env:sanguino1284p_optimized env:sanguino1284p env:melzi_optiboot_optimized env:melzi_optiboot
 
 //
 // Other ATmega644P, ATmega644, ATmega1284P

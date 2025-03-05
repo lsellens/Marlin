@@ -208,6 +208,7 @@
 #define BOARD_AZTEEG_X1               1510  // Azteeg X1
 #define BOARD_ANET_10                 1511  // Anet 1.0 (Melzi clone)
 #define BOARD_ZMIB_V2                 1512  // ZoneStar ZMIB V2
+#define BOARD_MKS_SMELZI_10           1513  // lsellens MKS SMelzi V1.0
 
 //
 // Other ATmega644P, ATmega644, ATmega1284P
