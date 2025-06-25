@@ -53,7 +53,7 @@
 #define BTN_ENC 28
 #define DOGLCD_CS 29
 #define BEEPER_PIN 30
-#define SDSS 31
+#define SD_SS_PIN 31
 #define BTN_EN1 10
 #define BTN_EN2 11
 
